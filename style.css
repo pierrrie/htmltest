@@ -422,3 +422,254 @@ header {
 .nav__footer {
     margin-top: 40px;
 }
+
+@media (max-width: 1400px) {
+    .header__inner {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+@media (max-width: 700px) {
+    .header__menu {
+        gap: 20px;
+    }
+}
+@media (max-width: 580px) {
+    .header__menu {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .header__contacts {
+        flex-direction: column;
+    }
+    .header__phone a {
+        font-size: 20px;
+    }
+}
+@media (max-width: 1770px) {
+    .header__img img {
+        width: 600px;
+        padding-right: 30px;
+    }
+}
+@media (max-width: 1520px) {
+    .header__img img {
+        width: 400px;
+        padding-right: 30px;
+    }
+}
+@media (max-width: 1200px) {
+    .header__img img {
+        width: 400px;
+        padding-right: 30px;
+    }
+    .header__title h1 {
+        font-size: 40px;
+        max-width: 401px;
+        line-height: 40px;
+    }
+    .header__description p {
+        font-size: 16px;
+        max-width: 300px;
+    }
+    
+}
+@media (max-width: 900px) {
+    .header__content {
+        flex-direction: column;
+        gap: 60px;
+    }
+    
+}
+@media (max-width: 500px) {
+    
+    .header__img img {
+        width: 200px;
+        padding-right: 0px;
+    }
+}
+
+@media (max-width: 420px) {
+    .header__title h1 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+@media (max-width: 1800px) {
+    .header__card {
+        width: 200px;
+        font-size: 16px;
+    }
+}
+@media (max-width: 1300px) {
+    .header__cards {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+    }
+    .header__card {
+        width: 100%;
+    }
+}
+@media (max-width: 370px) {
+    .benefits__title h2 {
+        font-size: 25px;
+    }
+}
+@media (max-width: 1520px) {
+    .benefits__card--description span {
+        font-size: 16px;
+    }
+}
+@media (max-width: 1400px) {
+    .benefits__card__text {
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+}
+@media (max-width: 1260px) {
+    .benefits__card--title span {
+        font-size: 20px;
+    }
+    .benefits__card__text {
+        gap: 0;
+    }
+    .benefits__card--title {
+        align-items: center;
+    }
+}
+@media (max-width: 1000px) {
+    .benefits__cards {
+        display: flex;
+        flex-direction: column;
+    }
+    .benefits__card__text {
+        gap: 20px;
+        padding-bottom: 20px;
+    }
+}
+@media (max-width: 450px) {
+    .benefits__card {
+        display: flex;
+        flex-direction: column;
+        max-height: 1000px;
+    }
+}
+@media (max-width: 1300px) {
+    .services__title span {
+        font-size: 20px;
+        max-height: 84px;
+    }
+}
+@media (max-width: 800px) {
+    .services__cards {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .services__inner h3 {
+        font-size: 20px;
+    }
+    .services__card {
+        width: 85%;
+    }
+    .services__card svg {
+        display: none;
+    }
+}
+@media (max-width: 400px) {
+    .services__price {
+        margin-top: 40px;
+    }
+}
+@media (max-width: 1850px) {
+    .partners__card {
+        width: 300px;
+        height: 200px;
+    }
+}
+@media (max-width: 1350px) {
+    .partners__card {
+        width: 100%;
+    }
+    .partners__cards {
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+@media (max-width: 530px) {
+    .partners--title-h1 {
+        font-size: 25px;
+    }
+    .partners--title-h2 {
+        font-size: 18px;
+    }
+}
+@media (max-width: 420px) {
+    .partners__card img {
+        width: 100%;
+    }
+}
+@media (max-width: 1700px) {
+    .contacts__inner {
+        padding-left: 30px;
+    }
+    .contacts__title {
+        font-size: 25px;
+    }
+    .contacts__title__inherit {
+        font-size: 18px;
+    }
+}
+@media (max-width: 1400px) {
+    .contacts__name-gray {
+        font-size: 20px;
+    }
+    .contacts__inherit {
+        font-size: 20px;
+    }
+    .contacts__social span {
+        font-size: 20px;
+    }
+    .contacts__social {
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+    }
+    .contacts__social button {
+        background: none;
+    }
+}
+@media (max-width: 1300px) {
+    .contacts__inner {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        text-align: center;
+    }
+    .contacts__title__inherit {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+    .contacts__social span {
+        margin: 0 auto;
+    }
+        .contacts__social {
+        align-items: center;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 1200px) {
+    .nav__footer ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        list-style-type: none;
+        gap: 20px;
+    }
+}
